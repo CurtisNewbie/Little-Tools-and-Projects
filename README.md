@@ -1,24 +1,24 @@
-# LittleTools
+# Little-Tools-and-Projects
 
-A list of simple tools.
+A list of simple tools and simple apps.
 
-<h3>BreakLine</h3>
+<h3>Tool - BreakLine</h3>
 
 It reads file from the given input path, removes all the linebreaks("\n"), creates new linebreaks based on the given configuration(number of characters per line), and then output the new content to the give output path.
 <br>
 It takes three parameters:<br>
 java BreakLine [in_path][out_path][num_of_chars_per_line]
 
-<h3>CompareStr</h3>
+<h3>Tool - CompareStr</h3>
 
 It compares two Strings alphabetically.
 <br>
 
-<h3>PlusCal</h3>
+<h3>Tool - PlusCal</h3>
 
 It calculates the sum of the given double/integers and it takes no parameters in initialisation.
 
-<h3>Read</h3>
+<h3>Tool - Read</h3>
 
 It reads the textual file from the give path, and shows the content in the terminal.
 It takes one param:
