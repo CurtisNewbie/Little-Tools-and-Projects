@@ -24,3 +24,7 @@ It reads the textual file from the give path, and shows the content in the termi
 It takes one param:
 
 java Read [file_path]
+
+<h3>Email Administration App</h3>
+
+Simple Email Administration App that allows the user to create new account, generate company email, setup alternative email, generate random password and change password. It doesn't really work as an administration system, it's just a way to practice some of techiniques such as data validation (using regex) and so on.
