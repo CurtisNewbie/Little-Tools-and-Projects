@@ -6,8 +6,8 @@ A list of simple tools.
 
 It reads file from the given input path, removes all the linebreaks("\n"), creates new linebreaks based on the given configuration(number of characters per line), and then output the new content to the give output path.
 <br>
-It takes three parameters:
-java BreakLine [in_path][out_path][num_of_chars]
+It takes three parameters:<br>
+java BreakLine [in_path][out_path][num_of_chars_per_line]
 
 <h3>CompareStr</h3>
 
