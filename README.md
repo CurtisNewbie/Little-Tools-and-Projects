@@ -1,5 +1,7 @@
 # Little-Tools-and-Projects
 
+<h1>Little Tools:</h1>
+
 A list of simple tools and simple apps.
 
 <h3>Tool - BreakLine</h3>
@@ -24,6 +26,17 @@ It reads the textual file from the give path, and shows the content in the termi
 It takes one param:
 
 java Read [file_path]
+
+<h3>Tool - Shutdown</h3>
+
+This is a timer that allows you to shutdown the Windows OS after a defined period of time. <br>
+It takes two parameters: ( h - hours, m - minute, s - seconds) <br>
+
+Java Shutdown [h/m/s][values]
+
+(For example, shutdown in 2 hours: Java Shutdown h 2)
+
+<h1>Small Projects:</h1>
 
 <h3>Email Administration App</h3>
 
