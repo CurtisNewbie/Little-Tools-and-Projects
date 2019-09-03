@@ -39,7 +39,7 @@ public class Send {
 		    System.exit(0);
 		} else {
 		    // initialise sender, connecting to receiver
-		    Sender sender = new Sender(config[1], Integer.parseInt(config[2]), config[3]);
+		    Sender sender = new Sender(config[0], Integer.parseInt(config[1]), config[2]);
 
 		    if (!sender.init()) {
 			System.out.println("Failed to initialise sender, please make sure the configuration file "

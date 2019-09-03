@@ -39,7 +39,7 @@ public class Receive {
 		    System.exit(0);
 		} else {
 		    // initialise receiver, waiting for connection
-		    Receiver receiver = new Receiver(Integer.parseInt(config[1]), config[2]);
+		    Receiver receiver = new Receiver(Integer.parseInt(config[0]), config[1]);
 		    if (!receiver.init()) {
 			System.out.println("Failed to initialise receiver, please make sure the configuration file "
 				+ "is correct (e.g., ip).");
