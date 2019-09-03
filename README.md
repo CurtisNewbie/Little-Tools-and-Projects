@@ -1,6 +1,17 @@
 # Little-Tools-and-Projects
 
-<h1>Little Tools:</h1>
+<h1>Small Projects:</h1>
+
+<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Email%20Administration%20App">Email Administration App</a></h3>
+
+Simple Email Administration App that allows the user to create new account, generate company email, setup alternative email, generate random password and change password. It doesn't really work as an administration system, it's just a way to practice some of techiniques such as data validation (using regex) and so on.
+
+<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/FileTransfer">FileTransfer App</a></h3>
+
+This is a project for transferring files with Java. It only allows two terminal to communicate and share files at the same time (sender and receiver). It's working perfectly fine on my laptop (using localhost), however, as I am living in a student accommodation, it is rather difficult for me to connect between two devices as usual.
+
+
+<h1>Simple Tools:</h1>
 
 A list of simple tools and simple apps.
 
@@ -36,12 +47,3 @@ Java Shutdown [h/m/s][values]
 
 (For example, shutdown in 2 hours: Java Shutdown h 2)
 
-<h1>Small Projects:</h1>
-
-<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Email%20Administration%20App">Email Administration App</a></h3>
-
-Simple Email Administration App that allows the user to create new account, generate company email, setup alternative email, generate random password and change password. It doesn't really work as an administration system, it's just a way to practice some of techiniques such as data validation (using regex) and so on.
-
-<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/FileTransfer">FileTransfer App</a></h3>
-
-This is a project for transferring files with Java. It only allows two terminal to communicate and share files at the same time (sender and receiver). It's working perfectly fine on my laptop (using localhost), however, as I am living in a student accommodation, it is rather difficult for me to connect between two devices as usual.
