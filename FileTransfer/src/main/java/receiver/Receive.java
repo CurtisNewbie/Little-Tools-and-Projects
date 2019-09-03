@@ -1,10 +1,9 @@
 package receiver;
 
-import parseconfig.Parse;
-
 import java.io.IOException;
-import java.net.*;
 import java.util.Scanner;
+
+import parseconfig.Parse;
 
 /**
  * Receive file from sender
