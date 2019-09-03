@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import parseconfig.Parse;
-import receiver.Receive;
 
 /**
  * Send file to receiver

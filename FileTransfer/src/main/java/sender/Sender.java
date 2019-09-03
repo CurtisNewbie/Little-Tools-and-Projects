@@ -53,8 +53,8 @@ public class Sender {
 		while ((count = in.read(buffer)) > 0) {
 		    out.write(buffer, 0, count);
 		}
-		in.close();
 		out.close();
+		in.close();
 		socket.close();
 	    }
 	}
