@@ -45,11 +45,7 @@ public class Receiver {
 		}
 		in.close();
 		out.close();
-	    } catch(IOException e) {
-		throw new IOException("Failed to output the received data.");
 	    }
-	} catch (IOException e) {
-	    throw new IOException("Failed to connect to the sender.");
 	}
     }
 

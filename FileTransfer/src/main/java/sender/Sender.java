@@ -56,12 +56,7 @@ public class Sender {
 		}
 		in.close();
 		out.close();
-	    } catch (IOException e) {
-		throw new IOException("Failed to send the data to the receiver due to some I/O issues.");
 	    }
-	} catch (IOException e) {
-	    throw new IOException("Filed to access to the local file that is about to be sent");
 	}
-
     }
 }
