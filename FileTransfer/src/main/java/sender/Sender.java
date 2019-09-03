@@ -56,6 +56,7 @@ public class Sender {
 		}
 		in.close();
 		out.close();
+		socket.close();
 	    }
 	}
     }

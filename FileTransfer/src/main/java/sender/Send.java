@@ -52,7 +52,7 @@ public class Send {
 			sender.sendFile();
 			System.out.println("File sent");
 		    } catch (IOException e) {
-			System.out.println(e.getMessage());
+			e.printStackTrace();
 		    }
 
 		    sc.close();

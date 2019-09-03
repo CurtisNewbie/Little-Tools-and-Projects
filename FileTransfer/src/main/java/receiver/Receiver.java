@@ -45,6 +45,7 @@ public class Receiver {
 		}
 		in.close();
 		out.close();
+		serverSocket.close();
 	    }
 	}
     }
