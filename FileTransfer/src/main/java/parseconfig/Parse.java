@@ -1,13 +1,14 @@
 package parseconfig;
 
 import java.io.*;
+import java.util.Arrays;
 import java.util.regex.Pattern;
 
 public class Parse {
 
-    private static final String IP_REGEX = "IP: {0,}[([^\\\\]])]";
-    private static final String PORT_REGEX = "PORT: {0,}[([^\\]])]";
-    private static final String FILE_PATH_REGEX = "FILE_PATH: {0,}[([^\\\\]])]";
+    private static final String IP_REGEX = "IP:\\[([^\\]]*)\\]";
+    private static final String PORT_REGEX = "PORT:\\[([^\\]]*)\\]";
+    private static final String FILE_PATH_REGEX = "FILE_PATH:\\[([^\\]]*)\\]";;
 
     private static final Pattern IP_PAT = Pattern.compile(IP_REGEX);
     private static final Pattern PORT_PAT = Pattern.compile(PORT_REGEX);
@@ -31,29 +32,29 @@ public class Parse {
 	while (((line = br.readLine()) != null) && legal) {
 
 	    switch (count) {
-	    case 1:
+	    case 0:
 		// ip
 		var ipMat = IP_PAT.matcher(line);
 		if (ipMat.find()) {
-		    config[count] = ipMat.group();
+		    config[count] = ipMat.group(1);
+		} else {
+		    legal = false;
+		}
+		break;
+	    case 1:
+		// port
+		var portMat = PORT_PAT.matcher(line);
+		if (portMat.find()) {
+		    config[count] = portMat.group(1);
 		} else {
 		    legal = false;
 		}
 		break;
 	    case 2:
-		// port
-		var portMat = PORT_PAT.matcher(line);
-		if (portMat.find()) {
-		    config[count] = portMat.group();
-		} else {
-		    legal = false;
-		}
-		break;
-	    case 3:
 		// file_path
 		var fileMat = FILE_PATH_PAT.matcher(line);
 		if (fileMat.find()) {
-		    config[count] = fileMat.group();
+		    config[count] = fileMat.group(1);
 		} else {
 		    legal = false;
 		}
@@ -61,7 +62,7 @@ public class Parse {
 	    }
 	    count++;
 	}
-
+	br.close();
 	if (legal)
 	    return config;
 	else
@@ -79,7 +80,7 @@ public class Parse {
     public static String[] parseConfigReceiver(String configPath) throws IOException {
 
 	var br = new BufferedReader(new FileReader(new File(configPath)));
-	String[] config = new String[3];
+	String[] config = new String[2];
 
 	int count = 0;
 	String line;
@@ -87,20 +88,20 @@ public class Parse {
 	while (((line = br.readLine()) != null) && legal) {
 
 	    switch (count) {
-	    case 1:
+	    case 0:
 		// port
 		var portMat = PORT_PAT.matcher(line);
 		if (portMat.find()) {
-		    config[count] = portMat.group();
+		    config[count] = portMat.group(1);
 		} else {
 		    legal = false;
 		}
 		break;
-	    case 2:
+	    case 1:
 		// file_path
 		var fileMat = FILE_PATH_PAT.matcher(line);
 		if (fileMat.find()) {
-		    config[count] = fileMat.group();
+		    config[count] = fileMat.group(1);
 		} else {
 		    legal = false;
 		}
@@ -108,7 +109,7 @@ public class Parse {
 	    }
 	    count++;
 	}
-
+	br.close();
 	if (legal)
 	    return config;
 	else
