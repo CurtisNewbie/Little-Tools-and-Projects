@@ -4,13 +4,14 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import parseconfig.Parse;
+import receiver.Receive;
 
 /**
  * Send file to receiver
  */
 public class Send {
 
-    public static final String CONFIG_PATH = "config.txt";
+    public static final String CONFIG_PATH = Send.class.getResource("configSender.txt").getFile();
 
     public static void main(String[] args) {
 

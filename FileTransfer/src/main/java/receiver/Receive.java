@@ -10,7 +10,7 @@ import parseconfig.Parse;
  */
 public class Receive {
 
-    public static final String CONFIG_PATH = "config.txt";
+    public static final String CONFIG_PATH = Receive.class.getResource("configReceiver.txt").getFile();
 
     public static void main(String[] args) {
 
