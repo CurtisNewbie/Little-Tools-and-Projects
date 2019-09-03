@@ -1,6 +1,5 @@
 package sender;
 
-import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -46,7 +45,7 @@ public class Sender {
 
 	try (var in = new FileInputStream(new File(file_path))) {
 
-	    try (var out = new DataOutputStream(socket.getOutputStream())) {
+	    try (var out = socket.getOutputStream()) {
 
 		// get and output the data
 		int count;

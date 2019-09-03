@@ -1,8 +1,8 @@
 package receiver;
 
-import java.io.DataInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.ServerSocket;
 
 public class Receiver {
@@ -33,7 +33,7 @@ public class Receiver {
 
 	var socket = serverSocket.accept();
 
-	try (DataInputStream in = new DataInputStream(socket.getInputStream())) {
+	try (InputStream in = socket.getInputStream()) {
 
 	    try (FileOutputStream out = new FileOutputStream(file_path)) {
 
@@ -46,6 +46,7 @@ public class Receiver {
 		in.close();
 		out.close();
 		serverSocket.close();
+		socket.close();
 	    }
 	}
     }
