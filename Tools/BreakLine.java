@@ -34,7 +34,7 @@ public class BreakLine {
         // paths
         String from, to;
 
-        if (params == 2) {
+        if (params == 3) {
             from = args[1];
             to = args[2];
         } else { // overwrite
