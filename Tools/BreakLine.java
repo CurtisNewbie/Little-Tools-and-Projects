@@ -10,27 +10,37 @@ import java.nio.charset.Charset;
  * Little tools that remove the previous linebreaks, and reformat the files
  * based on the give configuration.
  * 
- * It takes three params [0] --- from path [1] --- to path [2] --- number of
- * characters per line
+ * It takes three or two params:<br>
+ * 1)Output to a specified file: [number of char per line] [from_path] [to_path]
+ * 2)Overwrite the file: [number of char per line] [from_path]
  */
 public class BreakLine {
 
     public static void main(String[] args) {
 
-        if (args.length != 3) {
-            System.out.println("[from] [to] [num of char per line]");
+        int params = args.length;
+        if (params < 2 || params > 3) {
+            System.out.println(
+                    "Parameters: \"[num of char per line] [from] [to]\"  or \"[num of char per line] [from]\"");
             System.exit(0);
         }
 
         // config: num of char per line
-        int numOfChar = Integer.parseInt(args[2]);
+        int numOfChar = Integer.parseInt(args[0]);
 
         // content
         String content;
 
         // paths
-        String from = args[0];
-        String to = args[1];
+        String from, to;
+
+        if (params == 2) {
+            from = args[1];
+            to = args[2];
+        } else { // overwrite
+            from = args[1];
+            to = args[1];
+        }
 
         try {
             content = readFile(from);
