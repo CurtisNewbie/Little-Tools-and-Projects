@@ -23,7 +23,7 @@ It takes three or two params:<br>
 - 1)Output to a specified file: "Java BreakLine [number of char per line][from_path] [to_path]"
 - 2)Overwrite the file: "Java BreakLine [number of char per line][from_path]"
 
-<h3>Tool - CompareStr</h3>
+<h3>Tool - SortStr</h3>
 
 It compares two Strings alphabetically.
 <br>
