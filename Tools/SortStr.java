@@ -1,6 +1,10 @@
 import java.io.*;
 import java.util.*;
 
+/**
+ * This progra sorts the given strings alphabetically, and it can output the
+ * sorted strings to the console or a local file.
+ */
 public class SortStr {
 
 	public static void main(String[] args) {
