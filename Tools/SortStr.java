@@ -12,21 +12,40 @@ public class SortStr {
 		// takes string
 		List<String> list = new LinkedList<>();
 
-		// get input
 		System.out.println("\n-----------------------------------\n"
-				+ "This progra sorts the given strings alphabetically\nPlease enter the strings that you want to sort. Enter \"/q\" when you finish (with a space before \"/q\")"
+				+ "This progra sorts the given strings alphabetically\nPlease enter the strings that you want to sort. Do you want to read from console or file [c/f]"
 				+ "\n-----------------------------------\n");
 
 		Scanner sc = new Scanner(System.in);
-		String next;
-		while (sc.hasNext() && !(next = sc.next()).equals("/q")) {
-			list.add(next);
+		String resp = sc.next();
+
+		// get input from file
+		if (resp.equalsIgnoreCase("f")) {
+
+			System.out.println("\nEnter the path to the file please:");
+			sc.nextLine();
+			try (Scanner fileIn = new Scanner(new File(sc.nextLine()))) {
+				while (fileIn.hasNext()) {
+					list.add(fileIn.next());
+				}
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+				System.exit(0);
+			}
+
+			// get input from console
+		} else {
+			System.out.println("Enter \"/q\" when you finish (with a space before \"/q\")");
+			String next;
+			while (sc.hasNext() && !(next = sc.next()).equals("/q")) {
+				list.add(next);
+			}
 		}
 
 		// ascending or descending orders
 		if (!list.isEmpty()) {
 			System.out.println("\nAscending order or Descending order [A/D].");
-			String resp = sc.next();
+			resp = sc.next();
 
 			if (resp.equalsIgnoreCase("D")) {
 				Collections.sort(list, Collections.reverseOrder());
