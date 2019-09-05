@@ -25,7 +25,7 @@ It takes three or two params:<br>
 
 <h3>Tool - SortStr</h3>
 
-It compares two Strings alphabetically.
+It compares a list of strings alphabetically (ascending or descending). It can get input from and write output to console or a local file.
 <br>
 
 <h3>Tool - PlusCal</h3>
