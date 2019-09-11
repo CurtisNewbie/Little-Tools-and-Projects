@@ -14,6 +14,10 @@ This is a project for transferring files with Java. It only allows two terminal 
 
 A list of simple tools and simple apps.
 
+<h3>Tool - QRGenerator</h3>
+
+A simple program that encodes the given text into a QR Code image and output that image to a speicified file path. This is a maven project. More details are provided in the Readme.txt in the project folder.
+
 <h3>Tool - BreakLine</h3>
 
 It reads file from the given input path, removes all the linebreaks("\n"), creates new linebreaks based on the given configuration(number of characters per line), and then output the new content to the give output path.
