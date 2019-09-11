@@ -10,13 +10,13 @@ Simple Email Administration App that allows the user to create new account, gene
 
 This is a project for transferring files with Java. It only allows two terminal to communicate and share files at the same time (sender and receiver). It's working perfectly fine on my laptop (using localhost), however, as I am living in a student accommodation, it is rather difficult for me to connect between two devices as usual.
 
-<h1>Simple Tools:</h1>
-
-A list of simple tools and simple apps.
-
 <h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/QRGenerator">Tool - QRGenerator</a></h3>
 
 A simple program that encodes the given text into a QR Code image and output that image to a speicified file path. This is a maven project. More details are provided in the Readme.txt in the project folder.
+
+<h1>Simple Tools:</h1>
+
+A list of simple tools and simple apps.
 
 <h3>Tool - BreakLine</h3>
 
