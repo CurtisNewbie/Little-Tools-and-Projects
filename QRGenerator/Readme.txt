@@ -12,7 +12,7 @@ How to use it:
 
 This is a maven project. To use it, you will need to install
 maven. Once you have maven installed, navigate to the 
-QRGenerator directory, and then execute the following command
+"QRGenerator/my-app" directory, and then execute the following command
 in your prompt: "mvn clean compile exec:java". It should be 
 up and running.
 
