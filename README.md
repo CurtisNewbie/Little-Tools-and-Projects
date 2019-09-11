@@ -14,7 +14,7 @@ This is a project for transferring files with Java. It only allows two terminal 
 
 A list of simple tools and simple apps.
 
-<h3>Tool - QRGenerator</h3>
+<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/QRGenerator">Tool - QRGenerator</a></h3>
 
 A simple program that encodes the given text into a QR Code image and output that image to a speicified file path. This is a maven project. More details are provided in the Readme.txt in the project folder.
 
