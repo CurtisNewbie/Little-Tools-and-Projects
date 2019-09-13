@@ -1,5 +1,3 @@
-# Little-Tools-and-Projects
-
 <h1>Small Projects:</h1>
 
 <h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Email%20Administration%20App">Email Administration App</a></h3>
@@ -18,36 +16,18 @@ A simple program that encodes the given text into a QR Code image and output tha
 
 A list of simple tools and simple apps.
 
-<h3>Tool - BreakLine</h3>
+<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Tools/BreakLine">Tool - BreakLine</a></h3>
 
 It reads file from the given input path, removes all the linebreaks("\n"), creates new linebreaks based on the given configuration(number of characters per line), and then output the new content to the give output path.
-<br>
-It takes three or two params:<br>
 
-- 1)Output to a specified file: "Java BreakLine [number of char per line][from_path] [to_path]"
-- 2)Overwrite the file: "Java BreakLine [number of char per line][from_path]"
-
-<h3>Tool - SortStr</h3>
+<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Tools/SortStr">Tool - SortStr</a></h3>
 
 It compares a list of strings alphabetically (ascending or descending). It can get input from and write output to console or a local file.
-<br>
 
-<h3>Tool - PlusCal</h3>
-
-It calculates the sum of the given double/integers and it takes no parameters in initialisation.
-
-<h3>Tool - Read</h3>
+<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Tools/Read">Tool - Read</a></h3>
 
 It reads the textual file from the give path, and shows the content in the terminal.
-It takes one param:
 
-java Read [file_path]
-
-<h3>Tool - Shutdown</h3>
+<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Tools/Shutdown">Tool - Shutdown</a></h3>
 
 This is a timer that allows you to shutdown the Windows OS after a defined period of time. <br>
-It takes two parameters: ( h - hours, m - minute, s - seconds) <br>
-
-Java Shutdown [h/m/s][values]
-
-(For example, shutdown in 2 hours: Java Shutdown h 2)
