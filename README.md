@@ -16,6 +16,10 @@ A simple program that encodes the given text into a QR Code image and output tha
 
 It Converts the pdf file to a number of image using the "PDF Box Library".
 
+<h3><a href="https://github.com/CurtisNewbie/Simple-Tools-and-Projects/tree/master/GrapTextFromHtml">GrapTextFromHtml</a></h3>
+
+This program uses JSoup library to parse the html file. First it extracts all the links from the given website, and then goes to all these links to extract and download the textual data.
+
 <h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/BreakLine">BreakLine</a></h3>
 
 It reads file from the given input path, removes all the linebreaks("\n"), creates new linebreaks based on the given configuration(number of characters per line), and then output the new content to the give output path.
