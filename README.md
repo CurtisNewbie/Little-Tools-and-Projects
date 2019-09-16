@@ -1,13 +1,5 @@
 <h1>A list of simple tools and small projects</h1>
 
-<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Email%20Administration%20App">Email Administration App</a></h3>
-
-Simple Email Administration App that allows the user to create new account, generate company email, setup alternative email, generate random password and change password. It doesn't really work as an administration system, it's just a way to practice some of techiniques such as data validation (using regex) and so on.
-
-<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/FileTransfer">FileTransfer App</a></h3>
-
-This is a project for transferring files with Java. It only allows two terminal to communicate and share files at the same time (sender and receiver). It's working perfectly fine on my laptop (using localhost), however, as I am living in a student accommodation, it is rather difficult for me to connect between two devices as usual.
-
 <h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/QRGenerator">QRGenerator</a></h3>
 
 A simple program that encodes the given text into a QR Code image and output that image to a speicified file path. This is a maven project. More details are provided in the Readme.txt in the project folder.
@@ -19,6 +11,14 @@ It Converts the pdf file to a number of image using the "PDF Box Library".
 <h3><a href="https://github.com/CurtisNewbie/Simple-Tools-and-Projects/tree/master/GrapTextFromHtml">GrapTextFromHtml</a></h3>
 
 This program uses JSoup library to parse the html file. First it extracts all the links from the given website, and then goes to all these links to extract and download the textual data.
+
+<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Email%20Administration%20App">Email Administration App</a></h3>
+
+Simple Email Administration App that allows the user to create new account, generate company email, setup alternative email, generate random password and change password. It doesn't really work as an administration system, it's just a way to practice some of techiniques such as data validation (using regex) and so on.
+
+<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/FileTransfer">FileTransfer App</a></h3>
+
+This is a project for transferring files with Java. It only allows two terminal to communicate and share files at the same time (sender and receiver). It's working perfectly fine on my laptop (using localhost), however, as I am living in a student accommodation, it is rather difficult for me to connect between two devices as usual.
 
 <h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/BreakLine">BreakLine</a></h3>
 
