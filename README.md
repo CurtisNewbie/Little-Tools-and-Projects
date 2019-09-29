@@ -12,6 +12,10 @@ It Converts the pdf file to a number of image using the "PDF Box Library".
 
 It is a clock developed using Java and JavaFx.
 
+<h3><a href="https://github.com/CurtisNewbie/Simple-Tools-and-Projects/tree/master/CheckDirectorySize">CheckDirectorySize</a></h3>
+
+This program checks the size of a folder through a number of recursive calls.
+
 <h3><a href="https://github.com/CurtisNewbie/Simple-Tools-and-Projects/tree/master/GrapTextFromHtml">GrapTextFromHtml</a></h3>
 
 This program uses JSoup library to parse the html file. First it extracts all the links from the given website, and then goes to all these links to extract and download the textual data.
