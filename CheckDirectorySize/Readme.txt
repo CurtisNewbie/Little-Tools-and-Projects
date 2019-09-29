@@ -5,7 +5,6 @@
 Descriptions:
 
 This program checks the size of a folder through a number of recursive calls.
-[N.B.This program does not take care of overFlow issue, if the program displays negative results, please select larger unit e.g., -gb]
 
 -----------------------------------------------------------
 How to use it:
