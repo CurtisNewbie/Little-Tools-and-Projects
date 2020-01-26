@@ -4,6 +4,10 @@
 
 A simple program that encodes the given text into a QR Code image and output that image to a speicified file path. This is a maven project. More details are provided in the Readme.txt in the project folder.
 
+<h3><a href="https://github.com/CurtisNewbie/Simple-Tools-and-Projects/tree/master/SimplePainter">Simple Painter</a></h3>
+
+Program that provides basic functionalities to paint.
+
 <h3><a href="https://github.com/CurtisNewbie/Simple-Tools-and-Projects/tree/master/PDF_To_Image">PDF_To_Image</a></h3>
 
 It Converts the pdf file to a number of image using the "PDF Box Library".
