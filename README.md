@@ -51,7 +51,3 @@ This is a timer that allows you to shutdown the Windows OS after a defined perio
 <h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/SimpleCalendar">SimpleCalendar</a></h3>
 
 Just a simple program that displays the calendar for this month. The calendar is shown in the Command Prompt/Console.
-
-<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Read">Read</a></h3>
-
-It reads the textual file from the give path, and shows the content in the terminal.
