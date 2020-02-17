@@ -32,6 +32,10 @@ Simple Email Administration App that allows the user to create new account, gene
 
 This is a project for transferring files with Java. It only allows two terminal to communicate and share files at the same time (sender and receiver). It's working perfectly fine on my laptop (using localhost), however, as I am living in a student accommodation, it is rather difficult for me to connect between two devices as usual.
 
+<h3><a href="https://github.com/CurtisNewbie/Simple-Tools-and-Projects/tree/master/ffmpegConvert">FFMPEG Convert</a></h3>
+
+Simple tool that converts all files in a directory to specified format using FFMPEG CLI.
+
 <h3><a href="https://github.com/CurtisNewbie/Simple-Tools-and-Projects/tree/master/BouncingBall">BouncingBall Animation</a></h3>
 
 A simple animation of a ball bouncing in the window. It is implemented using Java and JavaFX.
@@ -40,9 +44,6 @@ A simple animation of a ball bouncing in the window. It is implemented using Jav
 
 It reads file from the given input path, removes all the linebreaks("\n"), creates new linebreaks based on the given configuration(number of characters per line), and then output the new content to the give output path.
 
-<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/SortStr">SortStr</a></h3>
-
-It compares a list of strings alphabetically (ascending or descending). It can get input from and write output to console or a local file.
 
 <h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Shutdown">Shutdown</a></h3>
 
