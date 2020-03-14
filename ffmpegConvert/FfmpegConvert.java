@@ -29,7 +29,8 @@ public class FfmpegConvert {
         Runtime runtime = Runtime.getRuntime();
         List<String> log = new ArrayList<String>();
         for (String f : inFiles) {
-            String cmd = "ffmpeg -i " + f + " -vcodec copy -acodec copy " + outDir + "/" + fileName(f) + "." + format;
+            String cmd = "ffmpeg -nostats -loglevel 0 -y -i " + f + " -vcodec copy -acodec copy " + outDir + "/"
+                    + fileName(f) + "." + format;
             Process p = runtime.exec(new String[] { "bash", "-c", cmd });
             if (p.waitFor() == 0) {
                 System.out.println("Convertion Sucess - " + f);
