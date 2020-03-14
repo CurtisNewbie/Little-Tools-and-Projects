@@ -16,7 +16,7 @@ public class FfmpegConvert {
 
         File outDir = new File(args[1]);
         if (!outDir.isDirectory()) {
-            System.out.println("Input Dir is not a directory");
+            System.out.println("Output Dir is not a directory");
         }
 
         List<String> inFiles = new ArrayList<>();
