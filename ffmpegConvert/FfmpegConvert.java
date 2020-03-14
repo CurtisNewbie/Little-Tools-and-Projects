@@ -26,6 +26,7 @@ public class FfmpegConvert {
     }
 
     static void convert(List<String> inFiles, String outDir, String format) throws Exception {
+        System.out.println("Started at " + new Date().toString());
         Runtime runtime = Runtime.getRuntime();
         List<String> log = new ArrayList<String>();
         for (String f : inFiles) {
