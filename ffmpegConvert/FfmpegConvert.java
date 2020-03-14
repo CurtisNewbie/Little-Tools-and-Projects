@@ -5,7 +5,7 @@ public class FfmpegConvert {
 
     public static void main(String[] args) throws Exception {
         if (args.length != 3) {
-            System.out.println("Three arguments: [0]input dir  [1]output dir [2]target format");
+            System.out.println("Three arguments: [0]input dir [1]output dir [2]target format");
             System.exit(0);
         }
 
@@ -45,10 +45,10 @@ public class FfmpegConvert {
         int start = -1;
         int end = -1;
         for (int i = path.length() - 1; i > 0; i--) {
-            if (path.charAt(i) == '.') {
+            if (path.charAt(i) == '.' && end < 0) {
                 end = i;
             } else if (path.charAt(i) == '/') {
-                start = i;
+                start = i + 1;
                 break;
             }
         }
