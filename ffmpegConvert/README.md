@@ -2,11 +2,11 @@
 
 **Simple tool that converts all files in a directory to specified format using FFMPEG CLI. The converted files are of their orginal names.**
 
-Essentially, it is doing following command for every file in the directory:
+Essentially, it is doing following command for every file in the directory, except that it changes the filename for you:
 
-    ffmpeg -i fileToBeConverted.mov -vcodec copy -acodec copy convertedFile.mp4
+    ffmpeg -i applejuice.mov -c copy applejuice.mp4
 
-**This tool only works on Linux, as I am using BASH.**
+**This tool works on both Linux and Windows OS**
 
 ## How to use it
 
