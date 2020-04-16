@@ -1,9 +1,5 @@
 <h1>A list of simple tools and small projects</h1>
 
-<h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/QRGenerator">QRGenerator</a></h3>
-
-A simple program that encodes the given text into a QR Code image and output that image to a speicified file path. This is a maven project. More details are provided in the Readme.txt in the project folder.
-
 <h3><a href="https://github.com/CurtisNewbie/Simple-Tools-and-Projects/tree/master/SimplePainter">Simple Painter</a></h3>
 
 Program that provides basic functionalities to paint.
@@ -43,7 +39,6 @@ A simple animation of a ball bouncing in the window. It is implemented using Jav
 <h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/BreakLine">BreakLine</a></h3>
 
 It reads file from the given input path, removes all the linebreaks("\n"), creates new linebreaks based on the given configuration(number of characters per line), and then output the new content to the give output path.
-
 
 <h3><a href="https://github.com/CurtisNewbie/Little-Tools-and-Projects/tree/master/Shutdown">Shutdown</a></h3>
 
